@@ -21,8 +21,10 @@ main {
     width: 1100px;
     height: 500px;
     border-radius: 30px;
+    margin-bottom: 100px;
 
 }
+
 
 
 
@@ -41,12 +43,14 @@ h1 {
     font-size: 40px;
 }
 
-a {
+.wl-btn {
+
     color: white;
     text-decoration: none;
 }
 
 .button {
+
     border: 1px solid red;
     border-radius: 10px;
     padding: 8px;
@@ -63,4 +67,87 @@ a {
     height: 480px;
     padding-top: 20px;
     padding-right: 30px;
+}
+
+
+.match {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    padding: 25px;
+    width: 15%;
+    font-weight: bold;
+}
+
+.u-match {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.a-group {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: white;
+    text-align: center;
+}
+
+.blog {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: red;
+    text-align: center;
+}
+
+.um {
+    text-decoration: none;
+    color: black
+}
+
+.tr-btn {
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: white;
+    text-align: center;
+    width: 70px;
+}
+
+.transfer {
+    text-decoration: none;
+    color: black
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.image img {
+    width: 200px;
+    height: 90px;
+}
+
+.transfer-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    text-align: right;
+    width: 70%;
+
+}
+
+.prob {
+    display: flex;
+    text-align: center;
 }
