@@ -199,3 +199,73 @@ hr {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/*========== mediaqueries============== */
+@media only screen and (max-width:688px) {
+
+
+
+    .Banner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: stretch;
+
+    }
+
+    .match-transfer-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0%;
+
+    }
+
+    .match {
+        width: 100%;
+        background-color: white;
+        border: black;
+        text-align: center;
+        padding-right: 100px;
+        margin-top: -100px;
+    }
+
+    .transfer-image {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: stretch;
+        margin-right: 100px;
+
+    }
+
+    .goal {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+
+    .goal-div {
+        margin-top: -90px;
+    }
+
+    .goal-contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+        margin-top: -20px;
+
+    }
+
+    .media {
+        margin-top: -20px;
+    }
+}
