@@ -124,20 +124,19 @@ h1 {
     color: black
 }
 
-.tr-btn {
 
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 3px;
-    background-color: white;
-    text-align: center;
-    width: 70px;
-    margin-top: 10px;
-}
 
 .transfer {
     text-decoration: none;
     color: black
+}
+
+.course-title {
+    text-align: center;
+}
+
+.rating {
+    text-align: center;
 }
 
 .image {
