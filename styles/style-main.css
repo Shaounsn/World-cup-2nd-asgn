@@ -76,6 +76,7 @@ h1 {
     display: flex;
     text-align: center;
     margin-left: 70px;
+    margin-bottom: 100px;
 }
 
 .match {
@@ -162,4 +163,39 @@ h1 {
     width: 70%;
     padding-left: 20px;
 
+}
+
+/* footersection */
+
+.goal {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.gl-btn {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+hr {
+    width: 70%;
+}
+
+.goal-contact {
+    padding-top: 30px;
+}
+
+.media {
+    padding-top: 30px;
+}
+
+.twr {
+    padding-left: 20px;
+    padding-right: 20px;
 }
